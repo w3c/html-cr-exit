@@ -1,0 +1,15 @@
+{
+    "outlines": true
+,   "date-and-time-state-(type=datetime)":    true
+,   "month-state-(type=month)": true
+,   "week-state-(type=week)": true
+,   "time-state-(type=time)": true
+,   "local-date-and-time-state-(type=datetime-local)": true
+,   "color-state-(type=color)": true
+,   "the-output-element": true
+,   "the-details-element": true
+,   "the-summary-element": true
+,   "the-dialog-element": true
+,   "offline": true
+,   "custom-handlers": true
+}
