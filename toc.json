@@ -493,11 +493,6 @@
                         "id": "dom-tree-accessors",
                         "testDir": "dom-tree-accessors",
                         "title": "3.1.3 DOM tree accessors"
-                    },
-                    {
-                        "id": "loading-xml-documents",
-                        "testDir": "loading-xml-documents",
-                        "title": "3.1.4 Loading XML documents"
                     }
                 ]
             },
@@ -1826,79 +1821,64 @@
                                         "title": "4.10.5.1.6 Password state (type=password)"
                                     },
                                     {
-                                        "id": "date-and-time-state-(type=datetime)",
-                                        "testDir": "date-and-time-state-type-datetime",
-                                        "title": "4.10.5.1.7 Date and Time state (type=datetime)"
-                                    },
-                                    {
                                         "id": "date-state-(type=date)",
                                         "testDir": "date-state-type-date",
-                                        "title": "4.10.5.1.8 Date state (type=date)"
-                                    },
-                                    {
-                                        "id": "month-state-(type=month)",
-                                        "testDir": "month-state-type-month",
-                                        "title": "4.10.5.1.9 Month state (type=month)"
-                                    },
-                                    {
-                                        "id": "week-state-(type=week)",
-                                        "testDir": "week-state-type-week",
-                                        "title": "4.10.5.1.10 Week state (type=week)"
+                                        "title": "4.10.5.1.7 Date state (type=date)"
                                     },
                                     {
                                         "id": "time-state-(type=time)",
                                         "testDir": "time-state-type-time",
-                                        "title": "4.10.5.1.11 Time state (type=time)"
+                                        "title": "4.10.5.1.8 Time state (type=time)"
                                     },
                                     {
                                         "id": "number-state-(type=number)",
                                         "testDir": "number-state-type-number",
-                                        "title": "4.10.5.1.12 Number state (type=number)"
+                                        "title": "4.10.5.1.9 Number state (type=number)"
                                     },
                                     {
                                         "id": "range-state-(type=range)",
                                         "testDir": "range-state-type-range",
-                                        "title": "4.10.5.1.13 Range state (type=range)"
+                                        "title": "4.10.5.1.10 Range state (type=range)"
                                     },
                                     {
                                         "id": "color-state-(type=color)",
                                         "testDir": "color-state-type-color",
-                                        "title": "4.10.5.1.14 Color state (type=color)"
+                                        "title": "4.10.5.1.11 Color state (type=color)"
                                     },
                                     {
                                         "id": "checkbox-state-(type=checkbox)",
                                         "testDir": "checkbox-state-type-checkbox",
-                                        "title": "4.10.5.1.15 Checkbox state (type=checkbox)"
+                                        "title": "4.10.5.1.12 Checkbox state (type=checkbox)"
                                     },
                                     {
                                         "id": "radio-button-state-(type=radio)",
                                         "testDir": "radio-button-state-type-radio",
-                                        "title": "4.10.5.1.16 Radio Button state (type=radio)"
+                                        "title": "4.10.5.1.13 Radio Button state (type=radio)"
                                     },
                                     {
                                         "id": "file-upload-state-(type=file)",
                                         "testDir": "file-upload-state-type-file",
-                                        "title": "4.10.5.1.17 File Upload state (type=file)"
+                                        "title": "4.10.5.1.14 File Upload state (type=file)"
                                     },
                                     {
                                         "id": "submit-button-state-(type=submit)",
                                         "testDir": "submit-button-state-type-submit",
-                                        "title": "4.10.5.1.18 Submit Button state (type=submit)"
+                                        "title": "4.10.5.1.15 Submit Button state (type=submit)"
                                     },
                                     {
                                         "id": "image-button-state-(type=image)",
                                         "testDir": "image-button-state-type-image",
-                                        "title": "4.10.5.1.19 Image Button state (type=image)"
+                                        "title": "4.10.5.1.16 Image Button state (type=image)"
                                     },
                                     {
                                         "id": "reset-button-state-(type=reset)",
                                         "testDir": "reset-button-state-type-reset",
-                                        "title": "4.10.5.1.20 Reset Button state (type=reset)"
+                                        "title": "4.10.5.1.17 Reset Button state (type=reset)"
                                     },
                                     {
                                         "id": "button-state-(type=button)",
                                         "testDir": "button-state-type-button",
-                                        "title": "4.10.5.1.21 Button state (type=button)"
+                                        "title": "4.10.5.1.18 Button state (type=button)"
                                     }
                                 ]
                             },
@@ -2192,102 +2172,73 @@
                 ]
             },
             {
-                "id": "interactive-elements",
-                "testDir": "interactive-elements",
-                "title": "4.11 Interactive elements",
-                "children": [
-                    {
-                        "id": "the-details-element",
-                        "testDir": "the-details-element",
-                        "title": "4.11.1 The details element"
-                    },
-                    {
-                        "id": "the-summary-element",
-                        "testDir": "the-summary-element",
-                        "title": "4.11.2 The summary element"
-                    },
-                    {
-                        "id": "the-dialog-element",
-                        "testDir": "the-dialog-element",
-                        "title": "4.11.3 The dialog element",
-                        "children": [
-                            {
-                                "id": "anchor-points",
-                                "testDir": "anchor-points",
-                                "title": "4.11.3.1 Anchor points"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "id": "scripting-1",
                 "testDir": "scripting-1",
-                "title": "4.12 Scripting",
+                "title": "4.11 Scripting",
                 "children": [
                     {
                         "id": "the-script-element",
                         "testDir": "the-script-element",
-                        "title": "4.12.1 The script element",
+                        "title": "4.11.1 The script element",
                         "children": [
                             {
                                 "id": "scriptingLanguages",
                                 "testDir": "scriptinglanguages",
-                                "title": "4.12.1.1 Scripting languages"
+                                "title": "4.11.1.1 Scripting languages"
                             },
                             {
                                 "id": "restrictions-for-contents-of-script-elements",
                                 "testDir": "restrictions-for-contents-of-script-elements",
-                                "title": "4.12.1.2 Restrictions for contents of script elements"
+                                "title": "4.11.1.2 Restrictions for contents of script elements"
                             },
                             {
                                 "id": "inline-documentation-for-external-scripts",
                                 "testDir": "inline-documentation-for-external-scripts",
-                                "title": "4.12.1.3 Inline documentation for external scripts"
+                                "title": "4.11.1.3 Inline documentation for external scripts"
                             },
                             {
                                 "id": "scriptTagXSLT",
                                 "testDir": "scripttagxslt",
-                                "title": "4.12.1.4 Interaction of script elements and XSLT"
+                                "title": "4.11.1.4 Interaction of script elements and XSLT"
                             }
                         ]
                     },
                     {
                         "id": "the-noscript-element",
                         "testDir": "the-noscript-element",
-                        "title": "4.12.2 The noscript element"
+                        "title": "4.11.2 The noscript element"
                     },
                     {
                         "id": "the-template-element",
                         "testDir": "the-template-element",
-                        "title": "4.12.3 The template element",
+                        "title": "4.11.3 The template element",
                         "children": [
                             {
                                 "id": "template-XSLT-XPath",
                                 "testDir": "template-xslt-xpath",
-                                "title": "4.12.3.1 Interaction of template elements with XSLT and XPath"
+                                "title": "4.11.3.1 Interaction of template elements with XSLT and XPath"
                             }
                         ]
                     },
                     {
                         "id": "the-canvas-element",
                         "testDir": "the-canvas-element",
-                        "title": "4.12.4 The canvas element",
+                        "title": "4.11.4 The canvas element",
                         "children": [
                             {
                                 "id": "color-spaces-and-color-correction",
                                 "testDir": "color-spaces-and-color-correction",
-                                "title": "4.12.4.1 Color spaces and color correction"
+                                "title": "4.11.4.1 Color spaces and color correction"
                             },
                             {
                                 "id": "serializing-bitmaps-to-a-file",
                                 "testDir": "serializing-bitmaps-to-a-file",
-                                "title": "4.12.4.2 Serializing bitmaps to a file"
+                                "title": "4.11.4.2 Serializing bitmaps to a file"
                             },
                             {
                                 "id": "security-with-canvas-elements",
                                 "testDir": "security-with-canvas-elements",
-                                "title": "4.12.4.3 Security with canvas elements"
+                                "title": "4.11.4.3 Security with canvas elements"
                             }
                         ]
                     }
@@ -2296,54 +2247,54 @@
             {
                 "id": "common-idioms",
                 "testDir": "common-idioms",
-                "title": "4.13 Common idioms without dedicated elements",
+                "title": "4.12 Common idioms without dedicated elements",
                 "children": [
                     {
                         "id": "sub-head",
                         "testDir": "sub-head",
-                        "title": "4.13.1 Subheadings, subtitles, alternative titles and taglines"
+                        "title": "4.12.1 Subheadings, subtitles, alternative titles and taglines"
                     },
                     {
                         "id": "rel-up",
                         "testDir": "rel-up",
-                        "title": "4.13.2 Bread crumb navigation"
+                        "title": "4.12.2 Bread crumb navigation"
                     },
                     {
                         "id": "tag-clouds",
                         "testDir": "tag-clouds",
-                        "title": "4.13.3 Tag clouds"
+                        "title": "4.12.3 Tag clouds"
                     },
                     {
                         "id": "conversations",
                         "testDir": "conversations",
-                        "title": "4.13.4 Conversations"
+                        "title": "4.12.4 Conversations"
                     },
                     {
                         "id": "footnotes",
                         "testDir": "footnotes",
-                        "title": "4.13.5 Footnotes"
+                        "title": "4.12.5 Footnotes"
                     }
                 ]
             },
             {
                 "id": "disabled-elements",
                 "testDir": "disabled-elements",
-                "title": "4.14 Disabled elements"
+                "title": "4.13 Disabled elements"
             },
             {
                 "id": "selectors",
                 "testDir": "selectors",
-                "title": "4.15 Matching HTML elements using selectors",
+                "title": "4.14 Matching HTML elements using selectors",
                 "children": [
                     {
                         "id": "case-sensitivity",
                         "testDir": "case-sensitivity",
-                        "title": "4.15.1 Case-sensitivity"
+                        "title": "4.14.1 Case-sensitivity"
                     },
                     {
                         "id": "pseudo-classes",
                         "testDir": "pseudo-classes",
-                        "title": "4.15.2 Pseudo-classes"
+                        "title": "4.14.2 Pseudo-classes"
                     }
                 ]
             }
@@ -2850,11 +2801,6 @@
                         "id": "printing",
                         "testDir": "printing",
                         "title": "6.5.2 Printing"
-                    },
-                    {
-                        "id": "dialogs-implemented-using-separate-documents",
-                        "testDir": "dialogs-implemented-using-separate-documents",
-                        "title": "6.5.3 Dialogs implemented using separate documents"
                     }
                 ]
             },
@@ -3962,74 +3908,69 @@
                         "title": "10.5.2 The button element"
                     },
                     {
-                        "id": "the-details-element-0",
-                        "testDir": "the-details-element-0",
-                        "title": "10.5.3 The details element"
-                    },
-                    {
                         "id": "the-input-element-as-a-text-entry-widget",
                         "testDir": "the-input-element-as-a-text-entry-widget",
-                        "title": "10.5.4 The input element as a text entry widget"
+                        "title": "10.5.3 The input element as a text entry widget"
                     },
                     {
                         "id": "the-input-element-as-domain-specific-widgets",
                         "testDir": "the-input-element-as-domain-specific-widgets",
-                        "title": "10.5.5 The input element as domain-specific widgets"
+                        "title": "10.5.4 The input element as domain-specific widgets"
                     },
                     {
                         "id": "the-input-element-as-a-range-control",
                         "testDir": "the-input-element-as-a-range-control",
-                        "title": "10.5.6 The input element as a range control"
+                        "title": "10.5.5 The input element as a range control"
                     },
                     {
                         "id": "the-input-element-as-a-color-well",
                         "testDir": "the-input-element-as-a-color-well",
-                        "title": "10.5.7 The input element as a color well"
+                        "title": "10.5.6 The input element as a color well"
                     },
                     {
                         "id": "the-input-element-as-a-checkbox-and-radio-button-widgets",
                         "testDir": "the-input-element-as-a-checkbox-and-radio-button-widgets",
-                        "title": "10.5.8 The input element as a checkbox and radio button widgets"
+                        "title": "10.5.7 The input element as a checkbox and radio button widgets"
                     },
                     {
                         "id": "the-input-element-as-a-file-upload-control",
                         "testDir": "the-input-element-as-a-file-upload-control",
-                        "title": "10.5.9 The input element as a file upload control"
+                        "title": "10.5.8 The input element as a file upload control"
                     },
                     {
                         "id": "the-input-element-as-a-button",
                         "testDir": "the-input-element-as-a-button",
-                        "title": "10.5.10 The input element as a button"
+                        "title": "10.5.9 The input element as a button"
                     },
                     {
                         "id": "the-marquee-element",
                         "testDir": "the-marquee-element",
-                        "title": "10.5.11 The marquee element"
+                        "title": "10.5.10 The marquee element"
                     },
                     {
                         "id": "the-meter-element-0",
                         "testDir": "the-meter-element-0",
-                        "title": "10.5.12 The meter element"
+                        "title": "10.5.11 The meter element"
                     },
                     {
                         "id": "the-progress-element-0",
                         "testDir": "the-progress-element-0",
-                        "title": "10.5.13 The progress element"
+                        "title": "10.5.12 The progress element"
                     },
                     {
                         "id": "the-select-element-0",
                         "testDir": "the-select-element-0",
-                        "title": "10.5.14 The select element"
+                        "title": "10.5.13 The select element"
                     },
                     {
                         "id": "the-textarea-element-0",
                         "testDir": "the-textarea-element-0",
-                        "title": "10.5.15 The textarea element"
+                        "title": "10.5.14 The textarea element"
                     },
                     {
                         "id": "the-keygen-element-0",
                         "testDir": "the-keygen-element-0",
-                        "title": "10.5.16 The keygen element"
+                        "title": "10.5.15 The keygen element"
                     }
                 ]
             },
