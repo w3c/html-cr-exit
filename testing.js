@@ -74,6 +74,7 @@
     }
     function renderToC () {
         render(data.toc, $("#toc"), false, false, false, false, false);
+        filter();
     }
     function filter () {
         var $fil = $("#filter")
@@ -85,7 +86,6 @@
     }
     $(function () {
         loadData(renderToC);
-        filter();
         $("#filter").change(filter);
     });
 }(jQuery));
