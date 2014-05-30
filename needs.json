@@ -58,7 +58,12 @@
 ,   "the-summary-element":    true
 ,   "the-dialog-element":    true
 ,   "selectors":    true
-,   "browsers":    true
+,   "windows":    true
+,   "the-window-object":    true
+,   "origin":    true
+,   "sandboxing":    true
+,   "history":    true
+,   "browsing-the-web":    true
 ,   "atob":    true
 ,   "the-hidden-attribute":    true
 ,   "focus":    true
