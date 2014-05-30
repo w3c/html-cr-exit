@@ -85,6 +85,7 @@
     }
     $(function () {
         loadData(renderToC);
+        filter();
         $("#filter").change(filter);
     });
 }(jQuery));
